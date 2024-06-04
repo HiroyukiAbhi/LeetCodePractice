@@ -5,6 +5,6 @@ class Solution:
             hash[i] = index
         for i in hash:
             result = target - i
-            if result in hash and result != i:
+            if result in hash and hash[result] != hash[i]:
                 return [hash[i], hash[result]]
 
