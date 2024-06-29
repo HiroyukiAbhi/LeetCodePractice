@@ -1,5 +1,4 @@
 class Solution:
-
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         hash = defaultdict(list)
         for stri in strs:
